@@ -4,6 +4,10 @@
 ## アプリケーション概要
 	オンライン学習サービスを参考にしながらReactやCSSの勉強のために作成しました。
 
+## イメージ
+	![スクリーンショット 2023-10-27 075942](https://github.com/YozoraIshida/PokemonApp/assets/144851824/55a4cba3-5315-4daa-b4f4-fb75b3a97ae5)
+
+
 ## URL
 	https://yozoraishida.github.io/PokemonApp/
 
