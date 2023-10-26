@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kosugi+Maru&family=Train+One&display=swap');
+
+@media screen and (min-width: 481px) {
+	nav {
+		background-color: #c0b4b2;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		height: 145px;
+		margin: 0;
+		font-weight: 600;
+		font-size: 45px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: Kosugi Maru;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	nav {
+		background-color: #c0b4b2;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		height: 100px;
+		margin: 0;
+		font-weight: 600;
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: Kosugi Maru;
+	}
+}

@@ -1,0 +1,76 @@
+@media screen and (min-width: 481px) {
+  .btn {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .btn button {
+    border: none;
+    box-shadow: 2px 2px 4px 3px #bab5b1;
+    border-radius: 6px;
+    background-color: rgb(228, 226, 222);
+    color: rgb(120, 104, 88);
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .btn button:active {
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+  }
+  .prev {
+    padding: 13px 30px 13px 20px;
+  }
+  .next {
+    padding: 13px 20px 13px 30px;
+  }
+  i {
+    vertical-align: -2.2px;
+  }
+  i.leftIcon {
+    margin-right: 5px;
+  }
+  i.rightIcon {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .btn {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .btn button {
+    border: none;
+    box-shadow: 2px 2px 3px 2px #bab5b1;
+    border-radius: 6px;
+    background-color: rgb(228, 226, 222);
+    color: rgb(120, 104, 88);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .btn button:active {
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+  }
+  .prev {
+    padding: 8px 15px 8px 10px;
+  }
+  .next {
+    padding: 8px 10px 8px 15px;
+  }
+  i {
+    vertical-align: -1.3px;
+  }
+  i.leftIcon {
+    margin-right: 2px;
+  }
+  i.rightIcon {
+    margin-left: 2px;
+  }
+}/*# sourceMappingURL=Btn.css.map */

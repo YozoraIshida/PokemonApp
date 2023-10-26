@@ -1,0 +1,98 @@
+@media screen and (min-width: 481px) {
+  .card {
+    width: 270px;
+    height: 455px;
+    box-shadow: 5px 5px 4px 3px #bab5b1;
+    border-radius: 17px;
+    background-color: rgb(228, 226, 222);
+    color: rgb(120, 104, 88);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  img {
+    width: 170px;
+  }
+  .imgChangeBtn {
+    padding: 3px 20px;
+    border: none;
+    transform: skew(-20deg);
+    box-shadow: 5px 4px 11px -3px #7b7a74;
+    background-color: rgb(243, 243, 243);
+    color: rgb(120, 104, 88);
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 7px;
+    transition: all 0.1s ease-in-out;
+  }
+  .imgChangeBtn:hover {
+    transform: scale(1.1);
+  }
+  .cardName {
+    padding: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .cardTypes {
+    font-size: 20px;
+  }
+  .cardInfo {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+  }
+  p.title {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    width: 290px;
+    height: 385px;
+    box-shadow: 5px 5px 4px 3px #bab5b1;
+    border-radius: 17px;
+    background-color: rgb(228, 226, 222);
+    color: rgb(120, 104, 88);
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .imgChangeBtn {
+    padding: 3px 20px;
+    border: none;
+    transform: skew(-20deg);
+    box-shadow: 5px 4px 11px -3px #7b7a74;
+    background-color: rgb(243, 243, 243);
+    color: rgb(120, 104, 88);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 7px;
+    transition: all 0.1s ease-in-out;
+  }
+  .imgChangeBtn:active {
+    transform: scale(1.1);
+  }
+  img {
+    width: 150px;
+  }
+  .cardName {
+    padding: 0;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .cardTypes {
+    font-size: 16px;
+  }
+  .cardInfo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  p.title {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}/*# sourceMappingURL=Card.css.map */
